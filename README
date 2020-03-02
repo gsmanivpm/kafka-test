@@ -1,0 +1,10 @@
+Usage
+
+java -cp E:\subbu\dev\eclipse-workspace\001\kafka004\target\kafka-order-manager-0.1.0.jar kafka.OrderGenerationApp
+java -cp E:\subbu\dev\eclipse-workspace\001\kafka004\target\kafka-order-manager-0.1.0.jar kafka.OrderFulfilmentApp
+
+The following path need to be modified based on the location of files placed in IKafkaConstants.java:
+Keystore path
+TrustStore Path
+Input CSV file path
+

@@ -57,7 +57,7 @@ public class OrderGenerationApp {
 	static void runProducer() throws FileNotFoundException {
 		Producer<Long, CustomObject> producer = OrderProducer.createProducer();
 		
-		CSVReader reader = new CSVReader(new FileReader("E:\\subbu\\dev\\kafka-test\\file\\in\\orders.csv"));
+		CSVReader reader = new CSVReader(new FileReader(IKafkaConstants.INPUT_ORDER_CSV_PATH));
 	      CsvToBean<CustomObject> csv = new CsvToBean<CustomObject>();
 	      csv.setCsvReader(reader);
 	      csv.setMappingStrategy(setColumMapping());

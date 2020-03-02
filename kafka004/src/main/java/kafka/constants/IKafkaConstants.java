@@ -32,4 +32,6 @@ public interface IKafkaConstants {
 	
 	public static String PASSWORD="order123";
 
+	
+	public static String INPUT_ORDER_CSV_PATH="E:\\subbu\\dev\\kafka-test\\file\\in\\orders.csv";
 }
